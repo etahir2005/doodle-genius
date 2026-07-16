@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ML artifacts — regenerate via scripts (locally or on Kaggle), never commit
+ml/data/raw/*
+ml/data/processed/*
+ml/models/*
+!ml/data/raw/.gitkeep
+!ml/data/processed/.gitkeep
+!ml/models/.gitkeep
+
+# Node / Next.js (not used — Streamlit was chosen instead, kept in case that changes)
+web/node_modules/
+web/.next/
+web/out/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
