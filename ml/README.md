@@ -43,8 +43,9 @@ that file is the source of truth; this is just for readability.
 ## Recommended: Train on Kaggle (GPU)
 Clone this branch into a Kaggle Notebook with GPU + internet enabled,
 run the four pipeline scripts there, then download `models/` back
-into this folder afterward. See the project's Kaggle notebook for
-the exact cell-by-cell walkthrough.
+into this folder afterward.
+
+Executed training run with results: https://www.kaggle.com/code/eeshaltahir/doodlegenius-model-training-day1
 
 ## Local setup (CPU fallback)
 ```bash
