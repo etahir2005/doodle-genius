@@ -13,6 +13,10 @@ ml/models/*
 !ml/data/raw/.gitkeep
 !ml/data/processed/.gitkeep
 !ml/models/.gitkeep
+# Trained model is small (~5MB) and needed for the Day 2 app to load at
+# runtime — deliberately committed as a deployment artifact, unlike the
+# large/regenerable dataset and training-plot outputs above.
+!ml/models/doodle_genius_cnn.keras
 
 # Node / Next.js (not used — Streamlit was chosen instead, kept in case that changes)
 web/node_modules/
