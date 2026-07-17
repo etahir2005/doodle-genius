@@ -1,0 +1,7 @@
+streamlit==1.59.2
+streamlit-drawable-canvas-fix==0.9.8
+tensorflow==2.21.0
+numpy==2.5.1
+Pillow==12.3.0
+pytest==9.1.1
+flake8==7.3.0

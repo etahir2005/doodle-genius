@@ -7,8 +7,7 @@ external API, DoodleGenius trains, evaluates, exports, and deploys
 its own CNN from scratch.
 
 ## Status
-Day 1 of 2 — ML training pipeline complete. Streamlit game UI (Day 2)
-not yet implemented.
+Day 2 of 2 — ML training pipeline and Streamlit game UI both complete.
 
 ## How It Works
 1. **Train** (Python / TensorFlow, on a Kaggle GPU notebook) — a CNN
@@ -29,10 +28,14 @@ not yet implemented.
 ## Project Structure
 doodle-genius/
 ├── ml/       # Python training pipeline (Day 1)
+├── app/      # Streamlit game UI (Day 2)
 └── .github/workflows/
 
 ## Day 1: ML Training Pipeline
 See [`ml/README.md`](ml/README.md) for setup and usage.
+
+## Day 2: Game UI
+See [`app/README.md`](app/README.md) for setup, usage, and gameplay rules.
 
 ## License
 MIT — see [LICENSE](LICENSE).
